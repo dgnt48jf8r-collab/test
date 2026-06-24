@@ -1,9 +1,9 @@
 ﻿{
   "app_name": "Warehouse Data Collector",
-  "latest_version": "0.2.1",
+  "latest_version": "0.2.2",
   "release_date": "2026-06-24",
-  "download_url": "https://github.com/dgnt48jf8r-collab/test/releases/download/v0.2.1/WarehouseDataCollector-portable.zip",
-  "sha256": "4AD7C3F45F70A82066D9AAEFF38FB00C8A10ACA2EBCF2C04089A81E05D4CC285",
+  "download_url": "https://github.com/dgnt48jf8r-collab/test/releases/download/v0.2.2/WarehouseDataCollector-portable.zip",
+  "sha256": "sha256:3799d828e3ae3b949f61abe39a80ff8c702d2abb7229c7718ed4df87af93a76a",
   "notes": [
     "Improved update diagnostics",
     "Improved app responsiveness"
