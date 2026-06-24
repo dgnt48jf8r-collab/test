@@ -1,12 +1,12 @@
 {
   "app_name": "Warehouse Data Collector",
-  "latest_version": "0.2.6",
+  "latest_version": "0.2.7",
   "release_date": "2026-06-24",
-  "download_url": "https://github.com/dgnt48jf8r-collab/test/releases/download/v0.2.6/WarehouseDataCollector-portable.zip",
-  "sha256": "C2D2F90E1BD4D9E3B852C7FE14694A59F8C7C2C91B2F0023C07B4F5973B3BCDC",
+  "download_url": "https://github.com/dgnt48jf8r-collab/test/releases/download/v0.2.7/WarehouseDataCollector-portable.zip",
+  "sha256": "AC1E19B052AF61FE5881E6C2C614580166B500DF2F28843C376C40545976B8C5",
   "notes": [
-    "Fixed remote updater finish step for Windows paths containing spaces or non-ASCII characters",
-    "Replaced cmd-based updater script with PowerShell using LiteralPath-safe file operations",
-    "Keeps protected user folders and master datasets untouched during updates"
+    "Improved dark navy theme contrast and reduced overly bright white surfaces",
+    "Added automatic Excel column width sizing for generated openpyxl workbooks",
+    "Keeps existing connector behavior unchanged"
   ]
 }
