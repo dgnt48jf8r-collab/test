@@ -1,12 +1,12 @@
 {
   "app_name": "Warehouse Data Collector",
-  "latest_version": "0.2.8",
+  "latest_version": "0.2.9",
   "release_date": "2026-06-24",
-  "download_url": "https://github.com/dgnt48jf8r-collab/test/releases/download/v0.2.8/WarehouseDataCollector-portable.zip",
-  "sha256": "91FBF7879E7B477337F8845B7662DEC8F5CF8CD8C403138788EA8EA68B8835E8",
+  "download_url": "https://github.com/dgnt48jf8r-collab/test/releases/download/v0.2.9/WarehouseDataCollector-portable.zip",
+  "sha256": "1CE5311BC2FB838CE047672CBAA455002A9ED153750624C39FD7DFF86E5FE31A",
   "notes": [
-    "Fixed updater window closing when Warehouse Data Collector is closed",
-    "Detached the finish-update PowerShell process from the app console",
-    "Keeps the 0.2.7 dark navy contrast and Excel auto-fit improvements"
+    "Dimmed Dataset Center, Trace, and Logs table surfaces in dark navy mode",
+    "Adjusted AS400 reset and settings form button colors",
+    "Kept Save Settings and Open Folder as teal primary actions while secondary actions use navy"
   ]
 }
