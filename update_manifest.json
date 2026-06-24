@@ -1,14 +1,12 @@
 {
-    "app_name":  "Warehouse Data Collector",
-    "latest_version":  "0.2.5",
-    "release_date":  "2026-06-24",
-    "download_url":  "https://github.com/dgnt48jf8r-collab/test/releases/download/v0.2.5/WarehouseDataCollector-portable.zip",
-    "sha256":  "4FCB71B14D2A66B32EB5498964312DAA59DFA4E47CF3F8C5B132D2D200873754",
-    "notes":  [
-        "Connected Home dashboard buttons to real navigation and file opening",
-        "Replaced placeholder Dataset Center with real Trace and AS400 master metadata",
-        "Added functional log filters",
-        "Added saved Light and Dark Navy theme selection",
-        "Enabled guarded Morning Run using existing connector workflows"
-              ]
+  "app_name": "Warehouse Data Collector",
+  "latest_version": "0.2.6",
+  "release_date": "2026-06-24",
+  "download_url": "https://github.com/dgnt48jf8r-collab/test/releases/download/v0.2.6/WarehouseDataCollector-portable.zip",
+  "sha256": "C2D2F90E1BD4D9E3B852C7FE14694A59F8C7C2C91B2F0023C07B4F5973B3BCDC",
+  "notes": [
+    "Fixed remote updater finish step for Windows paths containing spaces or non-ASCII characters",
+    "Replaced cmd-based updater script with PowerShell using LiteralPath-safe file operations",
+    "Keeps protected user folders and master datasets untouched during updates"
+  ]
 }
