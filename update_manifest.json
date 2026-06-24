@@ -1,12 +1,12 @@
 {
     "app_name":  "Warehouse Data Collector",
-    "latest_version":  "0.2.13",
+    "latest_version":  "0.2.14",
     "release_date":  "2026-06-24",
-    "download_url":  "https://github.com/dgnt48jf8r-collab/test/releases/download/v0.2.13/WarehouseDataCollector-portable.zip",
-    "sha256":  "E6D2C1451A4DBFF0508D6F11EA59F5657DF80A04EBABC0210560DE267B6D284D",
+    "download_url":  "https://github.com/dgnt48jf8r-collab/test/releases/download/v0.2.14/WarehouseDataCollector-portable.zip",
+    "sha256":  "D8BE0386C47A0DAE94D092888DE729A23BF1656B2D5A02C44BAC32CD8B415ED9",
     "notes":  [
-                  "Added AS400 Outlook Folder setting with Query as the default target",
-                  "Scan Email, Import Latest, Import All, Morning Run, and Full Catch-up pass the selected Outlook folder when supported",
-                  "Stores the folder preference in protected user_settings instead of overwriting typed config"
+                  "Made the top-left question mark more minimalist",
+                  "Replaced the basic tooltip with a branded Balchen Media popup",
+                  "Added an inline Balchen Media logo mark inside the popup"
               ]
 }
