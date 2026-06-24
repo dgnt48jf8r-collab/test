@@ -3,7 +3,7 @@
   "latest_version": "0.2.2",
   "release_date": "2026-06-24",
   "download_url": "https://github.com/dgnt48jf8r-collab/test/releases/download/v0.2.2/WarehouseDataCollector-portable.zip",
-  "sha256": "sha256:3799d828e3ae3b949f61abe39a80ff8c702d2abb7229c7718ed4df87af93a76a",
+  "sha256": "3799D828E3AE3B949F61ABE39A80FF8C702D2ABB7229C7718ED4DF87AF93A76A",
   "notes": [
     "Improved update diagnostics",
     "Improved app responsiveness"
