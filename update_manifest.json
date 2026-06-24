@@ -1,12 +1,14 @@
 {
-  "app_name": "Warehouse Data Collector",
-  "latest_version": "0.2.3",
-  "release_date": "2026-06-24",
-  "download_url": "https://github.com/dgnt48jf8r-collab/test/releases/download/v0.2.3/WarehouseDataCollector-portable.zip",
-  "sha256": "9691CBDA4DC0848FDDD8D4B77CFC2206CB22F2434A8E3FA7C286F21073782532",
-  "notes": [
-    "Fixed AS400 latest import column alignment against existing master dataset",
-    "Applied AS400 top-row skipping consistently for workbook exports",
-    "Prevents offset columns when AS400 export header text changes"
-  ]
+    "app_name":  "Warehouse Data Collector",
+    "latest_version":  "0.2.5",
+    "release_date":  "2026-06-24",
+    "download_url":  "https://github.com/dgnt48jf8r-collab/test/releases/download/v0.2.5/WarehouseDataCollector-portable.zip",
+    "sha256":  "4FCB71B14D2A66B32EB5498964312DAA59DFA4E47CF3F8C5B132D2D200873754",
+    "notes":  [
+        "Connected Home dashboard buttons to real navigation and file opening",
+        "Replaced placeholder Dataset Center with real Trace and AS400 master metadata",
+        "Added functional log filters",
+        "Added saved Light and Dark Navy theme selection",
+        "Enabled guarded Morning Run using existing connector workflows"
+              ]
 }
