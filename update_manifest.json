@@ -1,12 +1,12 @@
 {
-  "app_name": "Warehouse Data Collector",
-  "latest_version": "0.2.11",
-  "release_date": "2026-06-24",
-  "download_url": "https://github.com/dgnt48jf8r-collab/test/releases/download/v0.2.11/WarehouseDataCollector-portable.zip",
-  "sha256": "F4DF0C2B73EAC6ED74724638C8D03A288E9D018E0368540CFA033C81506E9EE1",
-  "notes": [
-    "Restored readable Excel-like table boxes in dark navy mode",
-    "Improved question-mark tooltip contrast",
-    "Added a top-left help question mark in the app branding area"
-  ]
+    "app_name":  "Warehouse Data Collector",
+    "latest_version":  "0.2.13",
+    "release_date":  "2026-06-24",
+    "download_url":  "https://github.com/dgnt48jf8r-collab/test/releases/download/v0.2.13/WarehouseDataCollector-portable.zip",
+    "sha256":  "E6D2C1451A4DBFF0508D6F11EA59F5657DF80A04EBABC0210560DE267B6D284D",
+    "notes":  [
+                  "Added AS400 Outlook Folder setting with Query as the default target",
+                  "Scan Email, Import Latest, Import All, Morning Run, and Full Catch-up pass the selected Outlook folder when supported",
+                  "Stores the folder preference in protected user_settings instead of overwriting typed config"
+              ]
 }
