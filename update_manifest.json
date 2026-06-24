@@ -1,11 +1,12 @@
-﻿{
+{
   "app_name": "Warehouse Data Collector",
-  "latest_version": "0.2.2",
+  "latest_version": "0.2.3",
   "release_date": "2026-06-24",
-  "download_url": "https://github.com/dgnt48jf8r-collab/test/releases/download/v0.2.2/WarehouseDataCollector-portable.zip",
-  "sha256": "3799D828E3AE3B949F61ABE39A80FF8C702D2ABB7229C7718ED4DF87AF93A76A",
+  "download_url": "https://github.com/dgnt48jf8r-collab/test/releases/download/v0.2.3/WarehouseDataCollector-portable.zip",
+  "sha256": "9691CBDA4DC0848FDDD8D4B77CFC2206CB22F2434A8E3FA7C286F21073782532",
   "notes": [
-    "Improved update diagnostics",
-    "Improved app responsiveness"
+    "Fixed AS400 latest import column alignment against existing master dataset",
+    "Applied AS400 top-row skipping consistently for workbook exports",
+    "Prevents offset columns when AS400 export header text changes"
   ]
 }
