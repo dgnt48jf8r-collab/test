@@ -1,12 +1,12 @@
 {
   "app_name": "Warehouse Data Collector",
-  "latest_version": "0.2.9",
+  "latest_version": "0.2.10",
   "release_date": "2026-06-24",
-  "download_url": "https://github.com/dgnt48jf8r-collab/test/releases/download/v0.2.9/WarehouseDataCollector-portable.zip",
-  "sha256": "1CE5311BC2FB838CE047672CBAA455002A9ED153750624C39FD7DFF86E5FE31A",
+  "download_url": "https://github.com/dgnt48jf8r-collab/test/releases/download/v0.2.10/WarehouseDataCollector-portable.zip",
+  "sha256": "A739A62923B6675D5EAB8412679A7D1C3DAC7E4DA2A44546D0DE1826EB52C50D",
   "notes": [
-    "Dimmed Dataset Center, Trace, and Logs table surfaces in dark navy mode",
-    "Adjusted AS400 reset and settings form button colors",
-    "Kept Save Settings and Open Folder as teal primary actions while secondary actions use navy"
+    "Fixed update finish window not opening visibly from version 0.2.8",
+    "Updater now launches a visible independent PowerShell window through cmd start",
+    "Keeps the 0.2.9 dark navy UI polish"
   ]
 }
