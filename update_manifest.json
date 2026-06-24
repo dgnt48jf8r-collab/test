@@ -1,12 +1,12 @@
 {
   "app_name": "Warehouse Data Collector",
-  "latest_version": "0.2.7",
+  "latest_version": "0.2.8",
   "release_date": "2026-06-24",
-  "download_url": "https://github.com/dgnt48jf8r-collab/test/releases/download/v0.2.7/WarehouseDataCollector-portable.zip",
-  "sha256": "AC1E19B052AF61FE5881E6C2C614580166B500DF2F28843C376C40545976B8C5",
+  "download_url": "https://github.com/dgnt48jf8r-collab/test/releases/download/v0.2.8/WarehouseDataCollector-portable.zip",
+  "sha256": "91FBF7879E7B477337F8845B7662DEC8F5CF8CD8C403138788EA8EA68B8835E8",
   "notes": [
-    "Improved dark navy theme contrast and reduced overly bright white surfaces",
-    "Added automatic Excel column width sizing for generated openpyxl workbooks",
-    "Keeps existing connector behavior unchanged"
+    "Fixed updater window closing when Warehouse Data Collector is closed",
+    "Detached the finish-update PowerShell process from the app console",
+    "Keeps the 0.2.7 dark navy contrast and Excel auto-fit improvements"
   ]
 }
