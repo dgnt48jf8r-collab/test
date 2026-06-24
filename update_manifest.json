@@ -1,12 +1,12 @@
 {
   "app_name": "Warehouse Data Collector",
-  "latest_version": "0.2.10",
+  "latest_version": "0.2.11",
   "release_date": "2026-06-24",
-  "download_url": "https://github.com/dgnt48jf8r-collab/test/releases/download/v0.2.10/WarehouseDataCollector-portable.zip",
-  "sha256": "A739A62923B6675D5EAB8412679A7D1C3DAC7E4DA2A44546D0DE1826EB52C50D",
+  "download_url": "https://github.com/dgnt48jf8r-collab/test/releases/download/v0.2.11/WarehouseDataCollector-portable.zip",
+  "sha256": "F4DF0C2B73EAC6ED74724638C8D03A288E9D018E0368540CFA033C81506E9EE1",
   "notes": [
-    "Fixed update finish window not opening visibly from version 0.2.8",
-    "Updater now launches a visible independent PowerShell window through cmd start",
-    "Keeps the 0.2.9 dark navy UI polish"
+    "Restored readable Excel-like table boxes in dark navy mode",
+    "Improved question-mark tooltip contrast",
+    "Added a top-left help question mark in the app branding area"
   ]
 }
