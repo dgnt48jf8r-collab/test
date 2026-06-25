@@ -1,12 +1,13 @@
 {
     "app_name":  "Warehouse Data Collector",
-    "latest_version":  "0.2.14",
-    "release_date":  "2026-06-24",
-    "download_url":  "https://github.com/dgnt48jf8r-collab/test/releases/download/v0.2.14/WarehouseDataCollector-portable.zip",
-    "sha256":  "D8BE0386C47A0DAE94D092888DE729A23BF1656B2D5A02C44BAC32CD8B415ED9",
+    "latest_version":  "0.2.15",
+    "release_date":  "2026-06-25",
+    "download_url":  "https://github.com/dgnt48jf8r-collab/test/releases/download/v0.2.15/WarehouseDataCollector-portable.zip",
+    "sha256":  "8751C8D684F9230EBB04AFF2EFFE50F6AAC381E01AC92C2A35B507A3C5E7FB8E",
     "notes":  [
-                  "Made the top-left question mark more minimalist",
-                  "Replaced the basic tooltip with a branded Balchen Media popup",
-                  "Added an inline Balchen Media logo mark inside the popup"
+                  "Added Trace Login Settings UI with masked local password support",
+                  "TraceCollector now supports optional auto-login and reloads the configured extraction URL after login",
+                  "Added conservative Maintenance cleanup preview/run controls",
+                  "Added AS400 matching diagnostics from interrupted diagnostics pass"
               ]
 }
