@@ -1,15 +1,14 @@
 {
   "app_name": "Warehouse Data Collector",
-  "latest_version": "0.2.17",
-  "release_date": "2026-06-25",
-  "download_url": "https://github.com/dgnt48jf8r-collab/test/releases/download/v0.2.17/WarehouseDataCollector-portable.zip",
-  "sha256": "C744CE3050848748048469F4A38856452DEA7610EE023CBEA6E9955994849583",
+  "latest_version": "0.2.20",
+  "release_date": "2026-06-26",
+  "download_url": "https://github.com/dgnt48jf8r-collab/test/releases/download/v0.2.20/WarehouseDataCollector-portable.zip",
+  "sha256": "C96C6C0CC7D90F2C0A02BC428BCCB9F7B0DCEE569771AE2F5CBA16C31960C5FE",
+  "trace_collector_download_url": "https://github.com/dgnt48jf8r-collab/test/releases/download/v0.2.20/TraceCollector-portable.zip",
+  "trace_collector_sha256": "53EE0F1C28A652B8B22FE5B8177517A9AEF8B36972041536DFB39ED21F57A1B3",
   "notes": [
-    "Trace login selectors are now fixed to the verified Trace WMS fields: #username, #password, and #loginButton",
-    "Trace Login Settings keeps username and password editable while showing selectors as read-only",
-    "Trace login reset now disables auto-login without wiping saved username or password",
-    "TraceCollector treats a no-download export after two 10-second attempts as an empty hour and continues to the next window",
-    "Maintenance now analyzes Warehouse Data Collector and TraceCollector in one process while protecting raw exports, configs, and master datasets",
-    "This release includes a separate rebuilt TraceCollector-portable.zip asset for updating the external TraceCollector engine"
+    "Warehouse Data Collector updater now also downloads and applies the matching TraceCollector update from the same release.",
+    "TraceCollector update protects config, data, logs, raw exports, merged outputs, and master Excel files.",
+    "Keeps the Trace auto-login selector wait fix and empty-final-hour export handling."
   ]
 }
