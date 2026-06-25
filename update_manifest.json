@@ -1,12 +1,14 @@
 {
-    "app_name":  "Warehouse Data Collector",
-    "latest_version":  "0.2.16",
-    "release_date":  "2026-06-25",
-    "download_url":  "https://github.com/dgnt48jf8r-collab/test/releases/download/v0.2.16/WarehouseDataCollector-portable.zip",
-    "sha256":  "B4203D4629481C8FE0ADB5243B7B71F40979E1D029B4F54B9089B85EABAA1E0E",
-    "notes":  [
-                  "Morning Run now detects the latest AS400 and Trace extract dates separately",
-                  "Morning Run fills missing extract dates through calendar yesterday instead of only running previous workday",
-                  "AS400 catch-up uses import-all with deduplication; Trace catch-up uses export-range, merge, and master update"
-              ]
+  "app_name": "Warehouse Data Collector",
+  "latest_version": "0.2.17",
+  "release_date": "2026-06-25",
+  "download_url": "https://github.com/dgnt48jf8r-collab/test/releases/download/v0.2.17/WarehouseDataCollector-portable.zip",
+  "sha256": "E9CBAC20EEDDF920BDFEF8B816137EFCEC5C6A7CCC8AC125AD5125E8F4E78A93",
+  "notes": [
+    "Trace login selectors are now fixed to the verified Trace WMS fields: #username, #password, and #loginButton",
+    "Trace Login Settings keeps username and password editable while showing selectors as read-only",
+    "Trace login reset now disables auto-login without wiping saved username or password",
+    "TraceCollector treats a no-download export after two 10-second attempts as an empty hour and continues to the next window",
+    "This release includes a separate rebuilt TraceCollector-portable.zip asset for updating the external TraceCollector engine"
+  ]
 }
