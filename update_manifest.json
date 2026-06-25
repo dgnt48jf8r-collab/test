@@ -3,12 +3,13 @@
   "latest_version": "0.2.17",
   "release_date": "2026-06-25",
   "download_url": "https://github.com/dgnt48jf8r-collab/test/releases/download/v0.2.17/WarehouseDataCollector-portable.zip",
-  "sha256": "E9CBAC20EEDDF920BDFEF8B816137EFCEC5C6A7CCC8AC125AD5125E8F4E78A93",
+  "sha256": "C744CE3050848748048469F4A38856452DEA7610EE023CBEA6E9955994849583",
   "notes": [
     "Trace login selectors are now fixed to the verified Trace WMS fields: #username, #password, and #loginButton",
     "Trace Login Settings keeps username and password editable while showing selectors as read-only",
     "Trace login reset now disables auto-login without wiping saved username or password",
     "TraceCollector treats a no-download export after two 10-second attempts as an empty hour and continues to the next window",
+    "Maintenance now analyzes Warehouse Data Collector and TraceCollector in one process while protecting raw exports, configs, and master datasets",
     "This release includes a separate rebuilt TraceCollector-portable.zip asset for updating the external TraceCollector engine"
   ]
 }
