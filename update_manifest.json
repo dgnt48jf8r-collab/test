@@ -1,14 +1,14 @@
 {
-    "latest_version":  "0.2.25",
+    "latest_version":  "0.2.26",
     "app_name":  "Warehouse Data Collector",
-    "sha256":  "5326D39B15E2A5ED14627163A2F8767989FC191C1EC240126AFD987C6AB30E70",
+    "sha256":  "293A58FD09944BDA67D2A80EE3ED7E42C37BDB54BB81C7EA1E243ADC730DCFEF",
     "notes":  [
-                  "Parquet-primary master update rebuilt on the proven 0.2.21 UI baseline.",
-                  "Trace master updates now write Trace_Master.parquet while preserving Excel exports and Excel legacy/base files.",
-                  "AS400 imports now write AS400_Master.parquet while preserving raw Excel attachments and Excel legacy/base files.",
-                  "Existing Parquet masters are backed up before update.",
-                  "Startup path remains close to 0.2.21 to avoid the 0.2.22 startup regression."
+                  "Trace Parquet startup fix built on proven 0.2.21 baseline.",
+                  "Startup and page render use safe Trace Parquet metadata reads only.",
+                  "Missing or unreadable Trace_Master.parquet shows friendly status instead of crashing.",
+                  "Trace master update writes Trace_Master.parquet and preserves legacy Excel seed.",
+                  "AS400 remains Excel-primary in this release."
               ],
-    "download_url":  "https://github.com/dgnt48jf8r-collab/test/releases/download/v0.2.25/WarehouseDataCollector-portable.zip",
+    "download_url":  "https://github.com/dgnt48jf8r-collab/test/releases/download/v0.2.26/WarehouseDataCollector-portable.zip",
     "release_date":  "2026-06-29"
 }
