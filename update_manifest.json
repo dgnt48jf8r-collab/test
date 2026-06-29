@@ -1,13 +1,14 @@
 {
-  "app_name": "Warehouse Data Collector",
-  "latest_version": "0.2.22",
-  "release_date": "2026-06-29",
-  "download_url": "https://github.com/dgnt48jf8r-collab/test/releases/download/v0.2.22/WarehouseDataCollector-portable.zip",
-  "sha256": "E5621F6B9CC491805CC1F85546590CBD06AB5E667F6CA65CAE72D78C6476101D",
-  "notes": [
-    "Trace master update now writes to Trace_Master.parquet as the primary dataset.",
-    "Existing Trace_Master.xlsx is preserved as legacy source and is not modified.",
-    "Existing Parquet master is backed up before update.",
-    "Dataset Center and Trace UI now show Parquet-primary Trace master status."
-  ]
+    "latest_version":  "0.2.23",
+    "app_name":  "Warehouse Data Collector",
+    "sha256":  "DFEEDC57626D3676E9D2242CF6D08EA1C203759EACFFF27B76F12DEEE79C4075",
+    "notes":  [
+                  "Trace master update writes to Trace_Master.parquet as the primary dataset.",
+                  "AS400 import now writes to AS400_Master.parquet as the primary dataset.",
+                  "Existing Excel masters are preserved as legacy seed/base files.",
+                  "Existing Parquet masters are backed up before update.",
+                  "Dataset Center and Home status now show Parquet-primary master paths."
+              ],
+    "download_url":  "https://github.com/dgnt48jf8r-collab/test/releases/download/v0.2.23/WarehouseDataCollector-portable.zip",
+    "release_date":  "2026-06-29"
 }
