@@ -1,14 +1,14 @@
 {
-    "latest_version":  "0.2.26",
+    "latest_version":  "0.2.27",
     "app_name":  "Warehouse Data Collector",
-    "sha256":  "293A58FD09944BDA67D2A80EE3ED7E42C37BDB54BB81C7EA1E243ADC730DCFEF",
+    "sha256":  "293B6DADFD9AAD627CB39E17E201390FD0ACBB98E0ADA2490C7315A5ED3C5494",
     "notes":  [
-                  "Trace Parquet startup fix built on proven 0.2.21 baseline.",
-                  "Startup and page render use safe Trace Parquet metadata reads only.",
-                  "Missing or unreadable Trace_Master.parquet shows friendly status instead of crashing.",
+                  "Fixed packaged startup regression by bundling Streamlit metadata and using a proper Streamlit launcher.",
+                  "Fixed Home page compatibility errors exposed during packaged startup.",
+                  "Trace Parquet startup remains lazy and metadata-safe.",
                   "Trace master update writes Trace_Master.parquet and preserves legacy Excel seed.",
                   "AS400 remains Excel-primary in this release."
               ],
-    "download_url":  "https://github.com/dgnt48jf8r-collab/test/releases/download/v0.2.26/WarehouseDataCollector-portable.zip",
+    "download_url":  "https://github.com/dgnt48jf8r-collab/test/releases/download/v0.2.27/WarehouseDataCollector-portable.zip",
     "release_date":  "2026-06-29"
 }
