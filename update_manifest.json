@@ -1,16 +1,13 @@
 {
-    "app_name":  "Warehouse Data Collector",
-    "latest_version":  "0.2.39",
-    "release_date":  "2026-06-30",
-    "download_url":  "https://github.com/dgnt48jf8r-collab/test/releases/download/v0.2.39/WarehouseDataCollector-portable.zip",
-    "sha256":  "12890DFDFE6A3AD12F3BA0860B8CF63FE89EDABC0F23859E6F9FF4A310D370A4",
-    "trace_collector_download_url":  "https://github.com/dgnt48jf8r-collab/test/releases/download/v0.2.39/TraceCollector-portable.zip",
-    "trace_collector_sha256":  "E5E0FB426FD95BC60F1C5B472B30D065DF3F982AB4D2A7EE91AA08C62C616906",
-    "notes":  [
-                  "Trace merge now writes an inspectable duplicate audit CSV whenever duplicate rows are removed.",
-                  "Duplicate audit files are written under data/logs as trace_duplicates_YYYYMMDD_HHMMSS.csv.",
-                  "The Trace merge result table and console output now show the duplicate audit path.",
-                  "Audit rows include row hash, duplicate stage, source file, run ID, Tid, Varenr, GTIN, SSCCs, user, customer, and order fields.",
-                  "TraceCollector, AS400, dedupe rules, ledger logic, and canonical Trace schema are unchanged."
-              ]
+  "app_name": "Warehouse Data Collector",
+  "latest_version": "0.3.0",
+  "release_date": "2026-07-06",
+  "download_url": "https://github.com/dgnt48jf8r-collab/test/releases/download/v0.3.0/WarehouseDataCollector-portable.zip",
+  "sha256": "201EFBA4781A1D582CD8632841DBA3C05B6F5F744A2A862A1CF77B45C4A39E45",
+  "notes": [
+    "Removed the AS400 Outlook extraction/import system.",
+    "AS400 is now monitored as an external dataset only.",
+    "Trace collection and Trace Parquet flow remain unchanged.",
+    "Removed pywin32 from application requirements."
+  ]
 }
