@@ -1,13 +1,13 @@
 {
   "app_name": "Warehouse Data Collector",
-  "latest_version": "0.3.0",
-  "release_date": "2026-07-06",
-  "download_url": "https://github.com/dgnt48jf8r-collab/test/releases/download/v0.3.0/WarehouseDataCollector-portable.zip",
-  "sha256": "201EFBA4781A1D582CD8632841DBA3C05B6F5F744A2A862A1CF77B45C4A39E45",
+  "latest_version": "0.3.1",
+  "release_date": "2026-07-07",
+  "download_url": "https://github.com/dgnt48jf8r-collab/test/releases/download/v0.3.1/WarehouseDataCollector-portable.zip",
+  "sha256": "AA59E2482C5CD18929603EA727CC55AB7B209773A79A945B04AC2378DD05CE56",
   "notes": [
-    "Removed the AS400 Outlook extraction/import system.",
-    "AS400 is now monitored as an external dataset only.",
-    "Trace collection and Trace Parquet flow remain unchanged.",
-    "Removed pywin32 from application requirements."
+    "Fixed portable startup reliability when browser could not connect to localhost.",
+    "Added a single launcher-controlled port selection flow with fallback ports 8501, 8502, and 3000.",
+    "Launcher now waits for the Streamlit health endpoint before opening the browser.",
+    "Added startup diagnostics logging to data/logs/startup_diagnostics.log."
   ]
 }
